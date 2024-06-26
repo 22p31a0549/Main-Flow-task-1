@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Style the navigation */
+nav {
+    background: #444;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 1em;
+    background: #fff;
+    margin: 1em auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+    margin-top: 1em;
+}
